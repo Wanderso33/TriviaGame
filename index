@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p> Click the button to wait 3 seconds, then alert" Welcome to the survey" </p>
+<button onclick=myFunction()">Select</button>
+
+<script>
+function myFunction() {
+    var questions =[
+        {
+         $questions: " Lebron is the greatest of all time", "Cleveland will win the series" : "JR cost Cleveland the game",
+        $options:"True", "False"
+        }
+    ]
+
+    setTimeout(function(){
+        result();
+
+    },3000);
+}
+</script>
+</body>
+</html>
