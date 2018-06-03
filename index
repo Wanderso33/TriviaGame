@@ -4,6 +4,7 @@
 
 <p> Click the button to wait 3 seconds, then alert" Welcome to the survey" </p>
 <button onclick=myFunction()">Select</button>
+/* Don't let the player pick more than one answer per question.
 
 <script>
 function myFunction() {
